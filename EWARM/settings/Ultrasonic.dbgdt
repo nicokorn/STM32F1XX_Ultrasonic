@@ -867,7 +867,7 @@
                     <item>distance</item>
                     <item>hi2c1</item>
                     <item>address</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

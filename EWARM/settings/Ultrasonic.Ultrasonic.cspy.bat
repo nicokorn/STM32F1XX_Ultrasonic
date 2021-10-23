@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Users\nico1\Documents\ST\Ultrasonic\EWARM\settings\Ultrasonic.Ultrasonic.general.xcl" --backend -f "C:\Users\nico1\Documents\ST\Ultrasonic\EWARM\settings\Ultrasonic.Ultrasonic.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F1XX_Ultrasonic\EWARM\settings\Ultrasonic.Ultrasonic.general.xcl" --backend -f "D:\GitHub\STM32F1XX_Ultrasonic\EWARM\settings\Ultrasonic.Ultrasonic.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Users\nico1\Documents\ST\Ultrasonic\EWARM\settings\Ultrasonic.Ultrasonic.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\nico1\Documents\ST\Ultrasonic\EWARM\settings\Ultrasonic.Ultrasonic.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F1XX_Ultrasonic\EWARM\settings\Ultrasonic.Ultrasonic.general.xcl" "--debug_file=%~1" --backend -f "D:\GitHub\STM32F1XX_Ultrasonic\EWARM\settings\Ultrasonic.Ultrasonic.driver.xcl" 
 
 @echo off 
 :end
